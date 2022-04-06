@@ -1,16 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
-
-.wfont {
-  font-family: 'Gamja Flower', cursive;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-  font-size: 3em;
+.wfont {
+  font-family: 'Single Day', cursive;
 }
 
 #container {
-  width: 600px;
   margin: 20px auto;
+  width: 1200px;
+}
+
+#header {
+  width: 100%;
+  height: 120px;
+  background-color: #ffb266;
+  font-size: 2.0em;
+  line-height: 120px;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+#left-sidebar {
+  float: left;
+  width: 250px;
+  height:740px;
+  background-color: #e0e0e0;
+}
+
+#contents {
+  float: left;
+  margin: 20px;
+  width: 760px;
+  height: 700px;
+}
+
+#right-sidebar {
+  float: left;
+  width: 150px;
+  height: 740px;
+  background-color: #e0e0e0;
+}
+
+#footer {
+  clear: left;
   padding: 20px;
+
+  width: 100%;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 20px;
 }
